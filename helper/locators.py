@@ -1,4 +1,3 @@
-
 username_selector = "input[name='username']"
 password_selector = "input[name='password']"
 submit_button_selector = "button[type='submit']"
@@ -12,3 +11,28 @@ ghost_button_selector = 'button.oxd-button--ghost'
 user_role_text_selector = '//label[text()="User Role"]/parent::div/following-sibling::div//div[contains(@class,"oxd-select-text-input")]'
 username_search_selector = '//label[text()="Username"]/parent::div/following-sibling::div//input'
 no_records_found_selector = '//span[text()="No Records Found"]'
+pim_user_selector = '//span[text()="PIM"]'
+pim_header_selector = '//h6[text()="PIM"]'
+add_employee_selector = '//a[text()="Add Employee"]'
+add_employee_header_selector = '//h6[text()="Add Employee"]'
+employee_id_selector = '//label[text()="Employee Id"]/parent::div/following-sibling::div//input'
+required_selector = '//span[text()="Required"]'
+leave_page_selector = '//span[text()="Leave"]'
+leave_header_selector = '//h6[text()="Leave"]'
+apply_leave_selector = '//a[text()="Apply"]'
+apply_leave_header_selector = '//h6[text()="Apply Leave"]'
+my_leave_selector = '//a[text()="My Leave"]'
+my_leave_header_selector = '//h5[text()="My Leave List"]'
+sub_unit_selector = '//label[text()="Sub Unit"]/parent::div/following-sibling::div//i'
+engineering_selector = '//div[@role="listbox"]//*[text()="Engineering"]'
+sub_unit_text_selector = '//label[text()="Sub Unit"]/parent::div/following-sibling::div//div[contains(@class,"oxd-select-text-input")]'
+recruitment_page_selector = '//span[text()="Recruitment"]'
+recruitment_header_selector = '//h6[text()="Recruitment"]'
+vacancies_selector = '//a[text()="Vacancies"]'
+vacancies_header_selector = '//h5[text()="Vacancies"]'
+add_button_selector = '//button[normalize-space()="Add"]'
+add_candidate_header_selector = '//h6[text()="Add Candidate"]'
+job_title_selector = '//label[text()="Job Title"]/parent::div/following-sibling::div//i'
+automation_tester_selector = '//div[@role="listbox"]//*[text()="Automaton Tester"]'
+job_title_text_selector = '//label[text()="Job Title"]/parent::div/following-sibling::div//div[contains(@class,"oxd-select-text-input")]'
+
