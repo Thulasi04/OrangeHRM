@@ -1,8 +1,7 @@
-from playwright.sync_api import Page
+from playwright.async_api import Page
 from helper import actions_for_pages
-from helper import recruitment_locators as locate
 from helper import constants_for_pages as const
-
+from locators import recruitment_locators as locate
 
 def navigate_to_recruitment(page: Page):
     actions_for_pages.type_action(page, locate.username_selector, const.username_admin)

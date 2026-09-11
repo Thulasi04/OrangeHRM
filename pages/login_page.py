@@ -1,7 +1,7 @@
-from playwright.sync_api import Page
+from playwright.async_api import Page
 from helper import actions_for_pages
-from helper import login_locators as locate
 from helper import constants_for_pages as const
+from locators import login_locators as locate
 
 
 def login_with_valid(page: Page):
@@ -29,3 +29,4 @@ def empty_login_page(page: Page):
 
 def forgot_password_page(page: Page):
     actions_for_pages.click_action(page, locate.forgot_password_selector)
+

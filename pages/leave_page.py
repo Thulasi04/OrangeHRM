@@ -1,7 +1,7 @@
-from playwright.sync_api import Page
+from playwright.async_api import Page
 from helper import actions_for_pages
-from helper import leave_locators as locate
 from helper import constants_for_pages as const
+from locators import leave_locators as locate
 
 
 def navigate_to_leave(page: Page):
