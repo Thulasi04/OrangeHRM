@@ -126,15 +126,6 @@ def leave_apply_navigation(page: Page):
     actions.click_action(page, locate.apply_leave_selector)
     return actions.get_text_action(page, locate.apply_leave_header_selector)
 
-def apply_leave_required_validation(page: Page):
-    actions.type_action(page, locate.username_selector, const.username_admin)
-    actions.type_action(page, locate.password_selector, const.password_admin)
-    actions.click_action(page, locate.submit_button_selector)
-    actions.click_action(page, locate.leave_page_selector)
-    actions.click_action(page, locate.apply_leave_selector)
-    actions.click_action(page, locate.submit_button_selector)
-    return page.locator(locate.required_selector).first.text_content()
-
 def leave_my_leave_navigation(page: Page):
     actions.type_action(page, locate.username_selector, const.username_admin)
     actions.type_action(page, locate.password_selector, const.password_admin)
